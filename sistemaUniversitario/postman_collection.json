@@ -1,0 +1,1836 @@
+{
+	"info": {
+		"_postman_id": "320241a0-43f2-4d7f-82d6-db29f3a93983",
+		"name": "Sistema Universitario - 3 BDs COMPLETO",
+		"description": "Coleccion completa para las 3 bases de datos. Ejecuta en orden: AUTH -> ACADEMIC -> ACTIVIDAD",
+		"schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json",
+		"_exporter_id": "44973700",
+		"_collection_link": "https://danielpadilla-6680188.postman.co/workspace/Daniel-Padilla's-Workspace~4b10e4fd-3553-4f7c-8c9a-d713dcf5578a/collection/44973700-320241a0-43f2-4d7f-82d6-db29f3a93983?action=share&source=collection_link&creator=44973700"
+	},
+	"item": [
+		{
+			"name": "BD AUTH - Crear Users",
+			"item": [
+				{
+					"name": "User 1 - Juan Perez (Estudiante)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Juan Perez\",\n  \"email\": \"juan@universidad.edu\",\n  \"username\": \"juanperez\",\n  \"password\": \"123456\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 2 - Maria Garcia (Estudiante)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Maria Garcia\",\n  \"email\": \"maria@universidad.edu\",\n  \"username\": \"mariagarcia\",\n  \"password\": \"123456\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 3 - Carlos Lopez (Estudiante)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Carlos Lopez\",\n  \"email\": \"carlos@universidad.edu\",\n  \"username\": \"carloslopez\",\n  \"password\": \"123456\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 4 - Ana Martinez (Docente)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Ana Martinez\",\n  \"email\": \"ana@universidad.edu\",\n  \"username\": \"anamartinez\",\n  \"password\": \"123456\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 5 - Pedro Sanchez (Docente)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Pedro Sanchez\",\n  \"email\": \"pedro@universidad.edu\",\n  \"username\": \"pedrosanchez\",\n  \"password\": \"123456\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 6 - Admin Sistema",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Administrador Sistema\",\n  \"email\": \"admin@universidad.edu\",\n  \"username\": \"admin\",\n  \"password\": \"admin123\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "User 7 - Laura Rodriguez (Secretaria)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Laura Rodriguez\",\n  \"email\": \"laura@universidad.edu\",\n  \"username\": \"laurarodriguez\",\n  \"password\": \"123456\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/auth/register",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"auth",
+								"register"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BD ACADEMIC 1 - Specialties",
+			"item": [
+				{
+					"name": "Specialty 1 - Ingenieria y Tecnologia",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Ingenieria y Tecnologia\",\n  \"description\": \"Area de ingenierias y ciencias tecnologicas\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/specialties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"specialties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Specialty 2 - Ciencias de la Salud",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Ciencias de la Salud\",\n  \"description\": \"Area de medicina y ciencias de la salud\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/specialties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"specialties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Specialty 3 - Ciencias Economicas",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Ciencias Economicas\",\n  \"description\": \"Area de economia, administracion y negocios\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/specialties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"specialties"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BD ACADEMIC 2 - Careers",
+			"item": [
+				{
+					"name": "Career 1 - Ingenieria en Sistemas",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Ingenieria en Sistemas\",\n  \"totalCycles\": 10,\n  \"durationYears\": 5,\n  \"specialtyId\": 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/careers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"careers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Career 2 - Medicina",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Medicina\",\n  \"totalCycles\": 12,\n  \"durationYears\": 6,\n  \"specialtyId\": 2\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/careers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"careers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Career 3 - Administracion de Empresas",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Administracion de Empresas\",\n  \"totalCycles\": 8,\n  \"durationYears\": 4,\n  \"specialtyId\": 3\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/careers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"careers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BD ACADEMIC 3 - Cycles",
+			"item": [
+				{
+					"name": "Cycle 1 - Primer Ciclo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Primer Ciclo\",\n  \"number\": 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/cycles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cycles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cycle 2 - Segundo Ciclo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Segundo Ciclo\",\n  \"number\": 2\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/cycles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cycles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cycle 3 - Tercer Ciclo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Tercer Ciclo\",\n  \"number\": 3\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/cycles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cycles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cycle 4 - Cuarto Ciclo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Cuarto Ciclo\",\n  \"number\": 4\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/cycles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cycles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cycle 5 - Quinto Ciclo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Quinto Ciclo\",\n  \"number\": 5\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/cycles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cycles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Cycle 6 - Sexto Ciclo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Sexto Ciclo\",\n  \"number\": 6\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/cycles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cycles"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BD ACADEMIC 4 - Subjects",
+			"item": [
+				{
+					"name": "Subject 1 - Programacion I (Sistemas)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Programacion I\",\n  \"credits\": 4,\n  \"careerId\": 1,\n  \"cycleId\": 1,\n  \"availableSlots\": 30\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subject 2 - Base de Datos (Sistemas)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Base de Datos\",\n  \"credits\": 4,\n  \"careerId\": 1,\n  \"cycleId\": 2,\n  \"availableSlots\": 25\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subject 3 - Redes de Computadoras (Sistemas)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Redes de Computadoras\",\n  \"credits\": 3,\n  \"careerId\": 1,\n  \"cycleId\": 3,\n  \"availableSlots\": 20\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subject 4 - Anatomia I (Medicina)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Anatomia I\",\n  \"credits\": 5,\n  \"careerId\": 2,\n  \"cycleId\": 1,\n  \"availableSlots\": 30\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subject 5 - Fisiologia (Medicina) - SOLO 2 CUPOS",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Fisiologia\",\n  \"credits\": 5,\n  \"careerId\": 2,\n  \"cycleId\": 2,\n  \"availableSlots\": 2\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subject 6 - Contabilidad (Admin)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Contabilidad General\",\n  \"credits\": 4,\n  \"careerId\": 3,\n  \"cycleId\": 1,\n  \"availableSlots\": 35\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Subject 7 - Marketing (Admin)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"name\": \"Marketing Digital\",\n  \"credits\": 3,\n  \"careerId\": 3,\n  \"cycleId\": 2,\n  \"availableSlots\": 40\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BD ACADEMIC 5 - Teachers",
+			"item": [
+				{
+					"name": "Teacher 1 - Ana Martinez (Tiempo Completo)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"userId\": 4,\n  \"firstName\": \"Ana\",\n  \"lastName\": \"Martinez\",\n  \"email\": \"ana.prof@universidad.edu\",\n  \"phone\": \"0991234567\",\n  \"isFullTime\": true\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/teachers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teachers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Teacher 2 - Pedro Sanchez (Medio Tiempo)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"userId\": 5,\n  \"firstName\": \"Pedro\",\n  \"lastName\": \"Sanchez\",\n  \"email\": \"pedro.prof@universidad.edu\",\n  \"phone\": \"0997654321\",\n  \"isFullTime\": false\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/teachers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teachers"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BD ACADEMIC 6 - Students",
+			"item": [
+				{
+					"name": "Student 1 - Juan Perez (Sistemas)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"userId\": 1,\n  \"firstName\": \"Juan\",\n  \"lastName\": \"Perez\",\n  \"email\": \"juan.est@universidad.edu\",\n  \"phone\": \"0981111111\",\n  \"careerId\": 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student 2 - Maria Garcia (Sistemas)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"userId\": 2,\n  \"firstName\": \"Maria\",\n  \"lastName\": \"Garcia\",\n  \"email\": \"maria.est@universidad.edu\",\n  \"phone\": \"0982222222\",\n  \"careerId\": 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Student 3 - Carlos Lopez (Medicina)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"userId\": 3,\n  \"firstName\": \"Carlos\",\n  \"lastName\": \"Lopez\",\n  \"email\": \"carlos.est@universidad.edu\",\n  \"phone\": \"0983333333\",\n  \"careerId\": 2\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BD ACADEMIC 7 - TeacherSubject",
+			"item": [
+				{
+					"name": "Ana - Programacion I",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 1\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/teacher-subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teacher-subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ana - Base de Datos",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 2\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/teacher-subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teacher-subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ana - Redes (3ra materia)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 3\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/teacher-subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teacher-subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Pedro - Anatomia I",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"teacherId\": 2,\n  \"subjectId\": 4\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/teacher-subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teacher-subjects"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "BD ACADEMIC 8 - StudentSubject (Matriculas)",
+			"item": [
+				{
+					"name": "Juan - Programacion I (2024-1)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 1,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Juan - Base de Datos (2024-1)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 2,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Juan - Redes (2024-1)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 3,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Maria - Programacion I (2024-1)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 2,\n  \"subjectId\": 1,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Maria - Base de Datos (2024-2)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 2,\n  \"subjectId\": 2,\n  \"academicPeriod\": \"2024-2\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Carlos - Anatomia I (2024-1)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 3,\n  \"subjectId\": 4,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Carlos - Fisiologia (2024-1) - 1er cupo",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 3,\n  \"subjectId\": 5,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ACTIVIDAD PARTE 1 - Consultas Derivadas",
+			"item": [
+				{
+					"name": "1.1 Estudiantes Activos con Carrera",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/active",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								"active"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1.2 Materias de Ing. Sistemas (careerId=1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/subjects/career/1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects",
+								"career",
+								"1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1.2b Materias de Medicina (careerId=2)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/subjects/career/2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects",
+								"career",
+								"2"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1.3 Docentes con Multiples Asignaturas",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/teachers/multiple-subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teachers",
+								"multiple-subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1.4 Matriculas Juan periodo 2024-1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/student/1/period/2024-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"student",
+								"1",
+								"period",
+								"2024-1"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "1.4b Matriculas Maria periodo 2024-2",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/student/2/period/2024-2",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"student",
+								"2",
+								"period",
+								"2024-2"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ACTIVIDAD PARTE 2 - Operaciones Logicas",
+			"item": [
+				{
+					"name": "2.1 Filtrar Estudiantes AND (carrera 1, periodo 2024-1)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/filter?careerId=1&academicPeriod=2024-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								"filter"
+							],
+							"query": [
+								{
+									"key": "careerId",
+									"value": "1"
+								},
+								{
+									"key": "academicPeriod",
+									"value": "2024-1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2.1b Filtrar Estudiantes Medicina 2024-1",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students/filter?careerId=2&academicPeriod=2024-1",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students",
+								"filter"
+							],
+							"query": [
+								{
+									"key": "careerId",
+									"value": "2"
+								},
+								{
+									"key": "academicPeriod",
+									"value": "2024-1"
+								}
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "2.2 Filtrar Docentes AND-OR-NOT",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/teachers/filter-logical",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teachers",
+								"filter-logical"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ACTIVIDAD PARTE 3 - Consulta Nativa SQL",
+			"item": [
+				{
+					"name": "3.1 Reporte SQL Nativo - Matriculas por Estudiante",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/reports/student-enrollment",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"reports",
+								"student-enrollment"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "ACTIVIDAD PARTE 4 - Transaccion ACID",
+			"item": [
+				{
+					"name": "4.1 Matricular Maria en Redes (Exito)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 2,\n  \"subjectId\": 3,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4.2 ERROR - Estudiante No Existe (999)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 999,\n  \"subjectId\": 1,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4.3 ERROR - Ya Matriculado (Juan en Prog I)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 1,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4.4 Matricular Maria en Fisiologia (Ultimo cupo)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 2,\n  \"subjectId\": 5,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "4.5 ERROR - Sin Cupos (Fisiologia llena)",
+					"request": {
+						"method": "POST",
+						"header": [
+							{
+								"key": "Content-Type",
+								"value": "application/json"
+							}
+						],
+						"body": {
+							"mode": "raw",
+							"raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 5,\n  \"academicPeriod\": \"2024-1\"\n}"
+						},
+						"url": {
+							"raw": "http://localhost:3000/student-subjects/enroll",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects",
+								"enroll"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		},
+		{
+			"name": "VERIFICAR - Ver todos los datos",
+			"item": [
+				{
+					"name": "Ver Users",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/users",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"users"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Specialties",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/specialties",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"specialties"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Careers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/careers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"careers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Cycles",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/cycles",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"cycles"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Subjects (revisar cupos)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Teachers",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/teachers",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teachers"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Students",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/students",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"students"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver TeacherSubject",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/teacher-subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"teacher-subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver StudentSubject (Matriculas)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/student-subjects",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"student-subjects"
+							]
+						}
+					},
+					"response": []
+				},
+				{
+					"name": "Ver Subject 5 - Fisiologia (verificar cupos)",
+					"request": {
+						"method": "GET",
+						"header": [],
+						"url": {
+							"raw": "http://localhost:3000/subjects/5",
+							"protocol": "http",
+							"host": [
+								"localhost"
+							],
+							"port": "3000",
+							"path": [
+								"subjects",
+								"5"
+							]
+						}
+					},
+					"response": []
+				}
+			]
+		}
+	]
+}
