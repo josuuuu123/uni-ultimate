@@ -1,127 +1,287 @@
 {
   "info": {
-    "name": "Sistema Universitario - Colección Completa",
-    "description": "API REST para Sistema de Gestión Universitaria con 3 bases de datos (AUTH, ACADEMIC, SUPPORT). Endpoints analizados desde src/. Todos los métodos HTTP: GET, POST, PATCH, DELETE",
+    "name": "Sistema Universitario - Colecciï¿½n Completa",
+    "description": "API REST para Sistema de Gestiï¿½n Universitaria con 3 bases de datos (AUTH, ACADEMIC, SUPPORT). Endpoints analizados desde src/. Todos los mï¿½todos HTTP: GET, POST, PATCH, DELETE",
     "schema": "https://schema.getpostman.com/json/collection/v2.1.0/collection.json"
   },
   "item": [
     {
-      "name": "AUTH - Autenticación",
+      "name": "AUTH - Autenticaciï¿½n",
       "item": [
         {
           "name": "Register - Juan Perez (Estudiante)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Juan Perez\",\n  \"email\": \"juan@universidad.edu\",\n  \"username\": \"juanperez\",\n  \"password\": \"123456\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/auth/register", "path": ["auth", "register"]}
+            "url": {
+              "raw": "http://localhost:3000/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "register"
+              ]
+            }
           }
         },
         {
           "name": "Register - Maria Garcia (Estudiante)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Maria Garcia\",\n  \"email\": \"maria@universidad.edu\",\n  \"username\": \"mariagarcia\",\n  \"password\": \"123456\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/auth/register", "path": ["auth", "register"]}
+            "url": {
+              "raw": "http://localhost:3000/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "register"
+              ]
+            }
           }
         },
         {
           "name": "Register - Carlos Lopez (Estudiante)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Carlos Lopez\",\n  \"email\": \"carlos@universidad.edu\",\n  \"username\": \"carloslopez\",\n  \"password\": \"123456\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/auth/register", "path": ["auth", "register"]}
+            "url": {
+              "raw": "http://localhost:3000/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "register"
+              ]
+            }
           }
         },
         {
           "name": "Register - Ana Martinez (Docente)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Ana Martinez\",\n  \"email\": \"ana@universidad.edu\",\n  \"username\": \"anamartinez\",\n  \"password\": \"123456\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/auth/register", "path": ["auth", "register"]}
+            "url": {
+              "raw": "http://localhost:3000/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "register"
+              ]
+            }
           }
         },
         {
           "name": "Register - Pedro Sanchez (Docente)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Pedro Sanchez\",\n  \"email\": \"pedro@universidad.edu\",\n  \"username\": \"pedrosanchez\",\n  \"password\": \"123456\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/auth/register", "path": ["auth", "register"]}
+            "url": {
+              "raw": "http://localhost:3000/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "register"
+              ]
+            }
           }
         },
         {
           "name": "Register - Admin Sistema",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Administrador Sistema\",\n  \"email\": \"admin@universidad.edu\",\n  \"username\": \"admin\",\n  \"password\": \"admin123\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/auth/register", "path": ["auth", "register"]}
+            "url": {
+              "raw": "http://localhost:3000/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "register"
+              ]
+            }
           }
         },
         {
           "name": "Register - Laura Rodriguez (Secretaria)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Laura Rodriguez\",\n  \"email\": \"laura@universidad.edu\",\n  \"username\": \"laurarodriguez\",\n  \"password\": \"123456\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/auth/register", "path": ["auth", "register"]}
+            "url": {
+              "raw": "http://localhost:3000/auth/register",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "register"
+              ]
+            }
           }
         },
         {
           "name": "Login - Juan Perez",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"username\": \"juanperez\",\n  \"password\": \"123456\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/auth/login", "path": ["auth", "login"]}
+            "url": {
+              "raw": "http://localhost:3000/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
           }
         },
         {
           "name": "Login - Admin",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"username\": \"admin\",\n  \"password\": \"admin123\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/auth/login", "path": ["auth", "login"]}
+            "url": {
+              "raw": "http://localhost:3000/auth/login",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "login"
+              ]
+            }
           }
         },
         {
           "name": "Get Current User (Me) - Protected",
           "request": {
             "method": "GET",
-            "header": [{"key": "Authorization", "value": "Bearer YOUR_JWT_TOKEN"}],
-            "url": {"raw": "http://localhost:3000/auth/me", "path": ["auth", "me"]}
+            "header": [
+              {
+                "key": "Authorization",
+                "value": "Bearer YOUR_JWT_TOKEN"
+              }
+            ],
+            "url": {
+              "raw": "http://localhost:3000/auth/me",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "auth",
+                "me"
+              ]
+            }
           }
         }
       ]
@@ -133,36 +293,81 @@
           "name": "Create - Ingenieria y Tecnologia",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Ingenieria y Tecnologia\",\n  \"description\": \"Area de ingenierias y ciencias tecnologicas\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/specialties", "path": ["specialties"]}
+            "url": {
+              "raw": "http://localhost:3000/specialties",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "specialties"
+              ]
+            }
           }
         },
         {
           "name": "Create - Ciencias de la Salud",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Ciencias de la Salud\",\n  \"description\": \"Area de medicina y ciencias de la salud\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/specialties", "path": ["specialties"]}
+            "url": {
+              "raw": "http://localhost:3000/specialties",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "specialties"
+              ]
+            }
           }
         },
         {
           "name": "Create - Ciencias Economicas",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Ciencias Economicas\",\n  \"description\": \"Area de economia, administracion y negocios\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/specialties", "path": ["specialties"]}
+            "url": {
+              "raw": "http://localhost:3000/specialties",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "specialties"
+              ]
+            }
           }
         },
         {
@@ -170,7 +375,17 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/specialties?page=1&limit=10", "path": ["specialties"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/specialties?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "specialties"
+              ]
+            }
           }
         },
         {
@@ -178,19 +393,46 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/specialties/1", "path": ["specialties", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/specialties/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "specialties",
+                "1"
+              ]
+            }
           }
         },
         {
           "name": "Update Specialty by ID",
           "request": {
             "method": "PATCH",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Ingenieria y Tecnologia (Updated)\",\n  \"description\": \"Area actualizada de ingenierias\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/specialties/1", "path": ["specialties", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/specialties/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "specialties",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -198,7 +440,18 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": {"raw": "http://localhost:3000/specialties/1", "path": ["specialties", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/specialties/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "specialties",
+                "1"
+              ]
+            }
           }
         }
       ]
@@ -210,36 +463,81 @@
           "name": "Create - Ingenieria en Sistemas",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Ingenieria en Sistemas\",\n  \"totalCycles\": 10,\n  \"durationYears\": 5,\n  \"specialtyId\": 1\n}"
             },
-            "url": {"raw": "http://localhost:3000/careers", "path": ["careers"]}
+            "url": {
+              "raw": "http://localhost:3000/careers",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "careers"
+              ]
+            }
           }
         },
         {
           "name": "Create - Medicina",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Medicina\",\n  \"totalCycles\": 12,\n  \"durationYears\": 6,\n  \"specialtyId\": 2\n}"
             },
-            "url": {"raw": "http://localhost:3000/careers", "path": ["careers"]}
+            "url": {
+              "raw": "http://localhost:3000/careers",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "careers"
+              ]
+            }
           }
         },
         {
           "name": "Create - Administracion de Empresas",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Administracion de Empresas\",\n  \"totalCycles\": 8,\n  \"durationYears\": 4,\n  \"specialtyId\": 3\n}"
             },
-            "url": {"raw": "http://localhost:3000/careers", "path": ["careers"]}
+            "url": {
+              "raw": "http://localhost:3000/careers",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "careers"
+              ]
+            }
           }
         },
         {
@@ -247,7 +545,17 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/careers?page=1&limit=10", "path": ["careers"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/careers?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "careers"
+              ]
+            }
           }
         },
         {
@@ -255,19 +563,46 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/careers/1", "path": ["careers", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/careers/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "careers",
+                "1"
+              ]
+            }
           }
         },
         {
           "name": "Update Career by ID",
           "request": {
             "method": "PATCH",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Ingenieria en Sistemas Mejorada\",\n  \"totalCycles\": 10,\n  \"durationYears\": 5\n}"
             },
-            "url": {"raw": "http://localhost:3000/careers/1", "path": ["careers", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/careers/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "careers",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -275,7 +610,18 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": {"raw": "http://localhost:3000/careers/1", "path": ["careers", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/careers/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "careers",
+                "1"
+              ]
+            }
           }
         }
       ]
@@ -287,54 +633,162 @@
           "name": "Create - Primer Ciclo",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"name\": \"Primer Ciclo\",\n  \"number\": 1\n}"},
-            "url": {"raw": "http://localhost:3000/cycles", "path": ["cycles"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Primer Ciclo\",\n  \"number\": 1\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/cycles",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles"
+              ]
+            }
           }
         },
         {
           "name": "Create - Segundo Ciclo",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"name\": \"Segundo Ciclo\",\n  \"number\": 2\n}"},
-            "url": {"raw": "http://localhost:3000/cycles", "path": ["cycles"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Segundo Ciclo\",\n  \"number\": 2\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/cycles",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles"
+              ]
+            }
           }
         },
         {
           "name": "Create - Tercer Ciclo",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"name\": \"Tercer Ciclo\",\n  \"number\": 3\n}"},
-            "url": {"raw": "http://localhost:3000/cycles", "path": ["cycles"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Tercer Ciclo\",\n  \"number\": 3\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/cycles",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles"
+              ]
+            }
           }
         },
         {
           "name": "Create - Cuarto Ciclo",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"name\": \"Cuarto Ciclo\",\n  \"number\": 4\n}"},
-            "url": {"raw": "http://localhost:3000/cycles", "path": ["cycles"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Cuarto Ciclo\",\n  \"number\": 4\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/cycles",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles"
+              ]
+            }
           }
         },
         {
           "name": "Create - Quinto Ciclo",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"name\": \"Quinto Ciclo\",\n  \"number\": 5\n}"},
-            "url": {"raw": "http://localhost:3000/cycles", "path": ["cycles"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Quinto Ciclo\",\n  \"number\": 5\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/cycles",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles"
+              ]
+            }
           }
         },
         {
           "name": "Create - Sexto Ciclo",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"name\": \"Sexto Ciclo\",\n  \"number\": 6\n}"},
-            "url": {"raw": "http://localhost:3000/cycles", "path": ["cycles"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"name\": \"Sexto Ciclo\",\n  \"number\": 6\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/cycles",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles"
+              ]
+            }
           }
         },
         {
@@ -342,7 +796,17 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/cycles?page=1&limit=10", "path": ["cycles"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/cycles?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles"
+              ]
+            }
           }
         },
         {
@@ -350,19 +814,46 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/cycles/1", "path": ["cycles", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/cycles/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles",
+                "1"
+              ]
+            }
           }
         },
         {
           "name": "Update Cycle by ID",
           "request": {
             "method": "PATCH",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Primer Ciclo (Updated)\",\n  \"number\": 1\n}"
             },
-            "url": {"raw": "http://localhost:3000/cycles/1", "path": ["cycles", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/cycles/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -370,7 +861,18 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": {"raw": "http://localhost:3000/cycles/1", "path": ["cycles", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/cycles/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "cycles",
+                "1"
+              ]
+            }
           }
         }
       ]
@@ -382,84 +884,189 @@
           "name": "Create - Programacion I (Sistemas)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Programacion I\",\n  \"credits\": 4,\n  \"careerId\": 1,\n  \"cycleId\": 1,\n  \"availableSlots\": 30\n}"
             },
-            "url": {"raw": "http://localhost:3000/subjects", "path": ["subjects"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ]
+            }
           }
         },
         {
           "name": "Create - Base de Datos (Sistemas)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Base de Datos\",\n  \"credits\": 4,\n  \"careerId\": 1,\n  \"cycleId\": 2,\n  \"availableSlots\": 25\n}"
             },
-            "url": {"raw": "http://localhost:3000/subjects", "path": ["subjects"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ]
+            }
           }
         },
         {
           "name": "Create - Redes de Computadoras (Sistemas)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Redes de Computadoras\",\n  \"credits\": 3,\n  \"careerId\": 1,\n  \"cycleId\": 3,\n  \"availableSlots\": 20\n}"
             },
-            "url": {"raw": "http://localhost:3000/subjects", "path": ["subjects"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ]
+            }
           }
         },
         {
           "name": "Create - Anatomia I (Medicina)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Anatomia I\",\n  \"credits\": 5,\n  \"careerId\": 2,\n  \"cycleId\": 1,\n  \"availableSlots\": 30\n}"
             },
-            "url": {"raw": "http://localhost:3000/subjects", "path": ["subjects"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ]
+            }
           }
         },
         {
           "name": "Create - Fisiologia (Medicina) - 2 CUPOS",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Fisiologia\",\n  \"credits\": 5,\n  \"careerId\": 2,\n  \"cycleId\": 2,\n  \"availableSlots\": 2\n}"
             },
-            "url": {"raw": "http://localhost:3000/subjects", "path": ["subjects"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ]
+            }
           }
         },
         {
           "name": "Create - Contabilidad General (Admin)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Contabilidad General\",\n  \"credits\": 4,\n  \"careerId\": 3,\n  \"cycleId\": 1,\n  \"availableSlots\": 35\n}"
             },
-            "url": {"raw": "http://localhost:3000/subjects", "path": ["subjects"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ]
+            }
           }
         },
         {
           "name": "Create - Marketing Digital (Admin)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Marketing Digital\",\n  \"credits\": 3,\n  \"careerId\": 3,\n  \"cycleId\": 2,\n  \"availableSlots\": 40\n}"
             },
-            "url": {"raw": "http://localhost:3000/subjects", "path": ["subjects"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ]
+            }
           }
         },
         {
@@ -467,7 +1074,17 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/subjects?page=1&limit=10", "path": ["subjects"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/subjects?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects"
+              ]
+            }
           }
         },
         {
@@ -475,7 +1092,19 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/subjects/career/1", "path": ["subjects", "career", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects/career/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects",
+                "career",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -483,7 +1112,19 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/subjects/career/2", "path": ["subjects", "career", "2"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects/career/2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects",
+                "career",
+                "2"
+              ]
+            }
           }
         },
         {
@@ -491,19 +1132,46 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/subjects/1", "path": ["subjects", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects",
+                "1"
+              ]
+            }
           }
         },
         {
           "name": "Update Subject by ID",
           "request": {
             "method": "PATCH",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Programacion I (Updated)\",\n  \"credits\": 5,\n  \"availableSlots\": 30\n}"
             },
-            "url": {"raw": "http://localhost:3000/subjects/1", "path": ["subjects", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -511,7 +1179,18 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": {"raw": "http://localhost:3000/subjects/1", "path": ["subjects", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/subjects/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "subjects",
+                "1"
+              ]
+            }
           }
         }
       ]
@@ -523,24 +1202,54 @@
           "name": "Create - Ana Martinez (Full Time)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"userId\": 4,\n  \"firstName\": \"Ana\",\n  \"lastName\": \"Martinez\",\n  \"email\": \"ana.prof@universidad.edu\",\n  \"phone\": \"0991234567\",\n  \"isFullTime\": true\n}"
             },
-            "url": {"raw": "http://localhost:3000/teachers", "path": ["teachers"]}
+            "url": {
+              "raw": "http://localhost:3000/teachers",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teachers"
+              ]
+            }
           }
         },
         {
           "name": "Create - Pedro Sanchez (Part Time)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"userId\": 5,\n  \"firstName\": \"Pedro\",\n  \"lastName\": \"Sanchez\",\n  \"email\": \"pedro.prof@universidad.edu\",\n  \"phone\": \"0997654321\",\n  \"isFullTime\": false\n}"
             },
-            "url": {"raw": "http://localhost:3000/teachers", "path": ["teachers"]}
+            "url": {
+              "raw": "http://localhost:3000/teachers",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teachers"
+              ]
+            }
           }
         },
         {
@@ -548,7 +1257,17 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teachers?page=1&limit=10", "path": ["teachers"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/teachers?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teachers"
+              ]
+            }
           }
         },
         {
@@ -556,7 +1275,18 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teachers/multiple-subjects", "path": ["teachers", "multiple-subjects"]}
+            "url": {
+              "raw": "http://localhost:3000/teachers/multiple-subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teachers",
+                "multiple-subjects"
+              ]
+            }
           }
         },
         {
@@ -564,7 +1294,18 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teachers/filter-logical", "path": ["teachers", "filter-logical"]}
+            "url": {
+              "raw": "http://localhost:3000/teachers/filter-logical",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teachers",
+                "filter-logical"
+              ]
+            }
           }
         },
         {
@@ -572,19 +1313,46 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teachers/1", "path": ["teachers", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/teachers/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teachers",
+                "1"
+              ]
+            }
           }
         },
         {
           "name": "Update Teacher by ID",
           "request": {
             "method": "PATCH",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"firstName\": \"Ana\",\n  \"lastName\": \"Martinez\",\n  \"email\": \"ana.updated@universidad.edu\",\n  \"phone\": \"0991234567\",\n  \"isFullTime\": true\n}"
             },
-            "url": {"raw": "http://localhost:3000/teachers/1", "path": ["teachers", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/teachers/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teachers",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -592,7 +1360,18 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teachers/1", "path": ["teachers", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/teachers/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teachers",
+                "1"
+              ]
+            }
           }
         }
       ]
@@ -604,36 +1383,81 @@
           "name": "Create - Juan Perez (Sistemas)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"userId\": 1,\n  \"firstName\": \"Juan\",\n  \"lastName\": \"Perez\",\n  \"email\": \"juan.est@universidad.edu\",\n  \"phone\": \"0981111111\",\n  \"careerId\": 1\n}"
             },
-            "url": {"raw": "http://localhost:3000/students", "path": ["students"]}
+            "url": {
+              "raw": "http://localhost:3000/students",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students"
+              ]
+            }
           }
         },
         {
           "name": "Create - Maria Garcia (Sistemas)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"userId\": 2,\n  \"firstName\": \"Maria\",\n  \"lastName\": \"Garcia\",\n  \"email\": \"maria.est@universidad.edu\",\n  \"phone\": \"0982222222\",\n  \"careerId\": 1\n}"
             },
-            "url": {"raw": "http://localhost:3000/students", "path": ["students"]}
+            "url": {
+              "raw": "http://localhost:3000/students",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students"
+              ]
+            }
           }
         },
         {
           "name": "Create - Carlos Lopez (Medicina)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"userId\": 3,\n  \"firstName\": \"Carlos\",\n  \"lastName\": \"Lopez\",\n  \"email\": \"carlos.est@universidad.edu\",\n  \"phone\": \"0983333333\",\n  \"careerId\": 2\n}"
             },
-            "url": {"raw": "http://localhost:3000/students", "path": ["students"]}
+            "url": {
+              "raw": "http://localhost:3000/students",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students"
+              ]
+            }
           }
         },
         {
@@ -641,7 +1465,17 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/students?page=1&limit=10", "path": ["students"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/students?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students"
+              ]
+            }
           }
         },
         {
@@ -649,7 +1483,18 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/students/active", "path": ["students", "active"]}
+            "url": {
+              "raw": "http://localhost:3000/students/active",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students",
+                "active"
+              ]
+            }
           }
         },
         {
@@ -657,7 +1502,18 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/students/filter?careerId=1&academicPeriod=2024-1", "path": ["students", "filter"], "query": [{"key": "careerId", "value": "1"}, {"key": "academicPeriod", "value": "2024-1"}]}
+            "url": {
+              "raw": "http://localhost:3000/students/filter?careerId=1&academicPeriod=2024-1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students",
+                "filter"
+              ]
+            }
           }
         },
         {
@@ -665,7 +1521,18 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/students/filter?careerId=2&academicPeriod=2024-1", "path": ["students", "filter"], "query": [{"key": "careerId", "value": "2"}, {"key": "academicPeriod", "value": "2024-1"}]}
+            "url": {
+              "raw": "http://localhost:3000/students/filter?careerId=2&academicPeriod=2024-1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students",
+                "filter"
+              ]
+            }
           }
         },
         {
@@ -673,19 +1540,46 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/students/1", "path": ["students", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/students/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students",
+                "1"
+              ]
+            }
           }
         },
         {
           "name": "Update Student by ID",
           "request": {
             "method": "PATCH",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"firstName\": \"Juan\",\n  \"lastName\": \"Perez Updated\",\n  \"email\": \"juan.updated@universidad.edu\",\n  \"phone\": \"0981111111\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/students/1", "path": ["students", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/students/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -693,7 +1587,18 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": {"raw": "http://localhost:3000/students/1", "path": ["students", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/students/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "students",
+                "1"
+              ]
+            }
           }
         }
       ]
@@ -705,12 +1610,27 @@
           "name": "Create User",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Test User\",\n  \"email\": \"test@universidad.edu\",\n  \"username\": \"testuser\",\n  \"password\": \"123456\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/users", "path": ["users"]}
+            "url": {
+              "raw": "http://localhost:3000/users",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "users"
+              ]
+            }
           }
         },
         {
@@ -718,7 +1638,17 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/users?page=1&limit=10", "path": ["users"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/users?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "users"
+              ]
+            }
           }
         },
         {
@@ -726,19 +1656,46 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/users/1", "path": ["users", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/users/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "users",
+                "1"
+              ]
+            }
           }
         },
         {
           "name": "Update User by ID",
           "request": {
             "method": "PATCH",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"name\": \"Test User Updated\",\n  \"email\": \"test.updated@universidad.edu\",\n  \"username\": \"testuser\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/users/1", "path": ["users", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/users/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "users",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -746,7 +1703,18 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": {"raw": "http://localhost:3000/users/1", "path": ["users", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/users/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "users",
+                "1"
+              ]
+            }
           }
         }
       ]
@@ -758,36 +1726,108 @@
           "name": "Assign - Ana to Programacion I",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 1\n}"},
-            "url": {"raw": "http://localhost:3000/teacher-subjects", "path": ["teacher-subjects"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 1\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects"
+              ]
+            }
           }
         },
         {
           "name": "Assign - Ana to Base de Datos",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 2\n}"},
-            "url": {"raw": "http://localhost:3000/teacher-subjects", "path": ["teacher-subjects"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 2\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects"
+              ]
+            }
           }
         },
         {
           "name": "Assign - Ana to Redes",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 3\n}"},
-            "url": {"raw": "http://localhost:3000/teacher-subjects", "path": ["teacher-subjects"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 3\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects"
+              ]
+            }
           }
         },
         {
           "name": "Assign - Pedro to Anatomia I",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
-            "body": {"mode": "raw", "raw": "{\n  \"teacherId\": 2,\n  \"subjectId\": 4\n}"},
-            "url": {"raw": "http://localhost:3000/teacher-subjects", "path": ["teacher-subjects"]}
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
+            "body": {
+              "mode": "raw",
+              "raw": "{\n  \"teacherId\": 2,\n  \"subjectId\": 4\n}"
+            },
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects"
+              ]
+            }
           }
         },
         {
@@ -795,7 +1835,17 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teacher-subjects?page=1&limit=10", "path": ["teacher-subjects"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects"
+              ]
+            }
           }
         },
         {
@@ -803,7 +1853,19 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teacher-subjects/teacher/1?page=1&limit=10", "path": ["teacher-subjects", "teacher", "1"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects/teacher/1?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects",
+                "teacher",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -811,7 +1873,19 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teacher-subjects/subject/1?page=1&limit=10", "path": ["teacher-subjects", "subject", "1"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects/subject/1?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects",
+                "subject",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -819,19 +1893,46 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teacher-subjects/1", "path": ["teacher-subjects", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects",
+                "1"
+              ]
+            }
           }
         },
         {
           "name": "Update Teacher-Subject Assignment by ID",
           "request": {
             "method": "PATCH",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"teacherId\": 1,\n  \"subjectId\": 1\n}"
             },
-            "url": {"raw": "http://localhost:3000/teacher-subjects/1", "path": ["teacher-subjects", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -839,168 +1940,386 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": {"raw": "http://localhost:3000/teacher-subjects/1", "path": ["teacher-subjects", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/teacher-subjects/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "teacher-subjects",
+                "1"
+              ]
+            }
           }
         }
       ]
     },
     {
-      "name": "STUDENT SUBJECTS - Matrículas de Estudiantes",
+      "name": "STUDENT SUBJECTS - Matrï¿½culas de Estudiantes",
       "item": [
         {
           "name": "Create Student-Subject Entry",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 1\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects", "path": ["student-subjects"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects"
+              ]
+            }
           }
         },
         {
           "name": "Enroll - Juan in Programacion I (2024-1)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 1,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "Enroll - Juan in Base de Datos (2024-1)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 2,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "Enroll - Juan in Redes (2024-1)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 3,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "Enroll - Maria in Programacion I (2024-1)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 2,\n  \"subjectId\": 1,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "Enroll - Maria in Base de Datos (2024-2)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 2,\n  \"subjectId\": 2,\n  \"academicPeriod\": \"2024-2\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "Enroll - Carlos in Anatomia I (2024-1)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 3,\n  \"subjectId\": 4,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "Enroll - Carlos in Fisiologia (1st slot)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 3,\n  \"subjectId\": 5,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "Enroll - Maria in Redes (2024-1) - SUCCESS",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 2,\n  \"subjectId\": 3,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "Enroll - Maria in Fisiologia (2nd slot)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 2,\n  \"subjectId\": 5,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "ERROR - Enroll non-existent student (999)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 999,\n  \"subjectId\": 1,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "ERROR - Duplicate enrollment (Juan in Prog I)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 1,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
           "name": "ERROR - No slots available (Fisiologia full)",
           "request": {
             "method": "POST",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 5,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/enroll", "path": ["student-subjects", "enroll"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/enroll",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "enroll"
+              ]
+            }
           }
         },
         {
@@ -1008,7 +2327,17 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/student-subjects?page=1&limit=10", "path": ["student-subjects"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects"
+              ]
+            }
           }
         },
         {
@@ -1016,7 +2345,19 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/student-subjects/student/1?page=1&limit=10", "path": ["student-subjects", "student", "1"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/student/1?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "student",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -1024,7 +2365,21 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/student-subjects/student/1/period/2024-1", "path": ["student-subjects", "student", "1", "period", "2024-1"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/student/1/period/2024-1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "student",
+                "1",
+                "period",
+                "2024-1"
+              ]
+            }
           }
         },
         {
@@ -1032,7 +2387,21 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/student-subjects/student/2/period/2024-2", "path": ["student-subjects", "student", "2", "period", "2024-2"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/student/2/period/2024-2",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "student",
+                "2",
+                "period",
+                "2024-2"
+              ]
+            }
           }
         },
         {
@@ -1040,7 +2409,19 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/student-subjects/subject/1?page=1&limit=10", "path": ["student-subjects", "subject", "1"], "query": [{"key": "page", "value": "1"}, {"key": "limit", "value": "10"}]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/subject/1?page=1&limit=10",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "subject",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -1048,19 +2429,46 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/student-subjects/1", "path": ["student-subjects", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "1"
+              ]
+            }
           }
         },
         {
           "name": "Update Student-Subject Enrollment by ID",
           "request": {
             "method": "PATCH",
-            "header": [{"key": "Content-Type", "value": "application/json"}],
+            "header": [
+              {
+                "key": "Content-Type",
+                "value": "application/json"
+              }
+            ],
             "body": {
               "mode": "raw",
               "raw": "{\n  \"studentId\": 1,\n  \"subjectId\": 1,\n  \"academicPeriod\": \"2024-1\"\n}"
             },
-            "url": {"raw": "http://localhost:3000/student-subjects/1", "path": ["student-subjects", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "1"
+              ]
+            }
           }
         },
         {
@@ -1068,7 +2476,18 @@
           "request": {
             "method": "DELETE",
             "header": [],
-            "url": {"raw": "http://localhost:3000/student-subjects/1", "path": ["student-subjects", "1"]}
+            "url": {
+              "raw": "http://localhost:3000/student-subjects/1",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "student-subjects",
+                "1"
+              ]
+            }
           }
         }
       ]
@@ -1081,7 +2500,18 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/reports/student-enrollment", "path": ["reports", "student-enrollment"]}
+            "url": {
+              "raw": "http://localhost:3000/reports/student-enrollment",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "reports",
+                "student-enrollment"
+              ]
+            }
           }
         }
       ]
@@ -1094,13 +2524,20 @@
           "request": {
             "method": "GET",
             "header": [],
-            "url": {"raw": "http://localhost:3000/", "path": ["/"]}
+            "url": {
+              "raw": "http://localhost:3000/",
+              "protocol": "http",
+              "host": [
+                "localhost"
+              ],
+              "port": "3000",
+              "path": [
+                "/"
+              ]
+            }
           }
         }
       ]
     }
   ]
 }
-
-
-
